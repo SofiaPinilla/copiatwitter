@@ -1,0 +1,252 @@
+
+*{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    height: 95vh;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 50%;
+    margin: 10px;
+}
+.login{
+   display: flex; 
+}
+
+
+.Loginbutton{
+    border:1px solid rgb(29, 161, 242);
+    color: rgb(29, 161, 242);
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 200px;
+    height: 20px;
+    width: 50px;
+    transition: all 300ms;
+    margin-top: 10px;
+    margin-left: 6px;
+    
+}
+.Loginbutton:hover{
+    cursor: pointer;
+    background-color: rgb(223, 243, 255);
+   
+}
+
+
+.pajarito{ 
+    
+    color: rgba(29,161,242,1.00);
+    
+    padding:30px;
+    margin-top: 50px;
+    margin-right: 400px;
+    display: flex;
+    justify-content: flex-end;
+    
+    
+}
+
+.texto1{
+   display: flex;
+   justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+    cursor: default;
+    margin: 0 auto;
+    
+}
+
+.inputs{
+    margin: 6px;
+    
+
+}
+
+.enlace{
+    all: unset;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 40px;
+    margin-top: 5px;
+    color: rgb(0, 195, 255);
+    font-size: 13px;
+    
+}
+
+  #Signupbutton{
+    border:1px solid rgb(29, 161, 242);
+    background-color:rgb(29, 161, 242);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    border-radius: 200px;
+    height: 20px;
+    transition: all 300ms;
+    margin-top: 5px;
+    
+    
+  }
+
+  #Signupbutton:hover{
+    cursor: pointer;
+    background-color: rgb(0, 135, 219);
+   
+}
+#Loginbutton2{
+    border:1px solid rgb(29, 161, 242);
+    color: rgb(29, 161, 242);
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    border-radius: 200px;
+    height: 20px;
+    transition: all 300ms;
+    margin-top: 10px;
+  
+    
+}
+
+#Loginbutton2:hover{
+    cursor: pointer;
+    background-color: rgb(223, 243, 255);
+   
+}
+
+.registro{
+    float: right;
+    margin-top: 50px;
+}
+
+.texto2{
+    
+    font-weight: bold;
+    padding: 10px;
+}
+.container1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(113, 201, 248);
+   background-image: url('pajaro.png');
+   background-repeat: no-repeat;
+   width: 50%;
+   
+   background-size: 100% 100%;
+   height: 99%;
+    justify-content: center;
+    align-items: center;
+ } 
+
+
+
+   
+   
+.texto{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    width: 60%;
+    padding: 20px;
+    
+}
+
+.footer{
+    padding: 10px;
+    cursor: pointer;
+    font-size: 12px;
+    bottom: 0;
+    color: inherit;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+/* estilo de los inputs*/
+label 				 {
+    color:#999; 
+    font-size:18px;
+    font-weight:normal;
+    position:absolute;
+    pointer-events:none;
+    left:5px;
+    top:10px;
+    transition:0.2s ease all; 
+    -moz-transition:0.2s ease all; 
+    -webkit-transition:0.2s ease all;
+  }
+
+.group 			  { 
+  position:relative; 
+  
+  
+}
+input 				{
+  font-size:18px;
+  padding:15px 15px 15px 5px;
+  display:block;
+  border:none;
+  border-bottom:2px solid #757575;
+  background-color: rgb(248, 248, 248);
+  font-size:18px;
+  width: 90%;
+  border-radius: 2px;
+}
+input:focus 		{ outline:none; }
+
+input:before, input:after{
+    border-bottom:1px solid #2eb3ff;
+}
+
+input:focus ~ label, input:valid ~ label 		{
+  top:-3px;
+  font-size:15px;
+  color:#6b6b6b; 
+  
+}
+
+input:focus ~ label, input:valid ~ label:hover		{
+    font-size:15px;
+    color:#2eb3ff; 
+    
+  }
+
+.bar 	{ position:relative; display:block; width: 220px; }
+.bar:before, .bar:after 	{
+  content:'';
+  height:2px; 
+  bottom:1px; 
+  position:absolute;
+  background:#2eb3ff; 
+ 
+}
+
+
+  input:before, input:after{
+    border-bottom:1px solid #2eb3ff;
+    
+  }
+  
+  input:focus ~ .bar:before, input:focus ~ .bar:after {
+    width:90%;
+    
+  }
+  
+
+  
